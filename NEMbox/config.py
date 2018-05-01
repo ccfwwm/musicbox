@@ -10,6 +10,7 @@ standard_library.install_aliases()
 import json
 import os
 
+
 from . import logger
 from .singleton import Singleton
 from .const import Constant

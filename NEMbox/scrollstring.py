@@ -1,3 +1,13 @@
+# @Author: 陈长富 <ccf>
+# @Date:   2018-04-10T20:25:54+08:00
+# @Email:  ccfwwm@gmail.com
+# @Filename: scrollstring.py
+# @Last modified by:   ccf
+# @Last modified time: 2018-04-15T21:53:11+08:00
+# @License: MIT
+
+
+
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
@@ -56,3 +66,12 @@ def truelen(string):
     0
     """
     return len(string) - sum(1 for c in string if c > chr(127)) / 3
+
+
+
+if __name__ == '__main__':
+        scr = scrollstring('test is good',5)
+#        tur = truelen(scr.__repr__())
+
+#        print(tur)
+#        print(scr.__repr__())

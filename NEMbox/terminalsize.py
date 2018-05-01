@@ -12,6 +12,7 @@ import struct
 import platform
 import subprocess
 
+
 from . import logger
 
 log = logger.getLogger(__name__)
@@ -44,7 +45,7 @@ def _get_terminal_size_windows():
         from ctypes import windll, create_string_buffer
         # stdin handle is -10
         # stdout handle is -11
-        # stderr handle is -12
+        # stderr handlwe is -12
         h = windll.kernel32.GetStdHandle(-12)
         csbi = create_string_buffer(22)
         res = windll.kernel32.GetConsoleScreenBufferInfo(h, csbi)

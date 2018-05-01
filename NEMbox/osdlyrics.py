@@ -29,7 +29,7 @@ except ImportError:
     log.warn("Osdlyrics Not Available.")
 
 if pyqt_activity:
-
+    print("pyqt4 is work!")
     class Lyrics(QtGui.QWidget):
 
         def __init__(self):
@@ -63,7 +63,7 @@ if pyqt_activity:
             frameGeo.moveCenter(bc)
             frameGeo.moveBottom(bc.y())
             self.move(frameGeo.topLeft())
-            self.text = "OSD Lyrics for Musicbox"
+            self.text = "OSD Lyrics for Musicbox, ccf is good!"
             self.setWindowTitle("Lyrics")
             self.show()
 

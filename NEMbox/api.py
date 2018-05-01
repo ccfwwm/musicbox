@@ -711,4 +711,6 @@ if __name__ == '__main__':
     print(geturl_new_api(ne.songs_detail([27902910])[0]))  # MD 128k, fallback
     print(ne.songs_detail_new_api([27902910])[0]['url'])
     print(ne.songs_detail([405079776])[0]['mp3Url'])  # old api
-    print(requests.get(ne.songs_detail([405079776])[0]['mp3Url']).status_code)  # 404
+ #   print(requests.get(ne.songs_detail([405079776])[0]['mp3Url']).status_code)  # 404
+    mp3Url = 'http://m10.music.126.net/20180430012302/86bfeb7efd87aa42370a9e71bdf2bf24/ymusic/b022/7457/0536/77357411f4cbe4f1552aecf06dec89d7.mp3'
+    print(requests.get(mp3Url).status_code)  # 200

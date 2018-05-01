@@ -1,3 +1,13 @@
+# @Author: 陈长富 <ccf>
+# @Date:   2018-04-10T20:25:54+08:00
+# @Email:  ccfwwm@gmail.com
+# @Filename: __init__.py
+# @Last modified by:   ccf
+# @Last modified time: 2018-04-11T22:22:42+08:00
+# @License: MIT
+
+
+
 #!/usr/bin/env python
 # encoding: UTF-8
 '''
